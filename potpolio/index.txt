@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="port.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap"
+      rel="stylesheet"
+    />
+
+  </head>
+  <body>
+    <!-- Header design -->
+    <header>
+      <a href="#" class="logo">Pooja<span> Alekar</span></a>
+
+      <ul class="navlist">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-text">
+        <div class="slide">
+          <span class="one">Hello</span>
+          <span class="two">I'm</span>
+        </div>
+        <h1>Pooja Alekar</h1>
+        <h3>An <span>Engineering</span> Student</h3>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="photo.jpeg" alt="" />
+      </div>
+      <div class="about-text">
+        <h2>About<span> Me</span></h2>
+        <p>
+          Completed B.Tech in Computer science Engineering at Fabtech 
+          Technical Campus college of Engineering sangola With Aggreated CGPA 8.80
+          
+          Experienced in Python, SQL, HTML, CSS ,core java,Javascript ,Jdbc
+          Building my skills towards Web Development
+          & looking for opportunities in IT zone.
+          <br>
+          <a href="resume.pdf" target="_blank">Download CV</a>
+        </p>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="max-width">
+          <h2 class="title"><span>My</span>Skills</h2>
+        </div>
+        <div class="skills-content">
+              <div class="right">
+                <div class="bars">
+                  <div class="info">
+                    Python<span></span>
+                    <span>70%</span>
+                  </div>
+                  <div class="line python"></div>
+                </div>
+                
+                <div class="bars">
+                  <div class="info">
+                    SQL<span></span>
+                    <span>70%</span>
+                  </div>
+                  <div class="line mysql"></div>
+                </div>
+
+                <div class="bars">
+                  <div class="info">
+                    HTML<span></span>
+                    <span>90%</span>
+                  </div>
+                  <div class="line html"></div>
+                </div>
